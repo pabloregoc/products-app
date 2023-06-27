@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+} 
+mat-card.mat-card{
+    background-color:white;
+}
+mat-card-content{
+    height: 65%;
+    width: 40%;
+    padding: 3%;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    background-color: rgb(73, 73, 73);
+}
+button{
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    border-radius: 100%;
+    background-color:white;
+    color: black;
+    margin: 2%;
+} 
+.boton{
+    color:black;
+    background-color:white;
+}
+mat-toolbar{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(73, 73, 73);
+}
+.check{
+    padding: 1%;
+}

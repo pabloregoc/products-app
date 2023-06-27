@@ -1,0 +1,14 @@
+<mat-toolbar>
+    <a mat-button routerLink="/">Inicio</a>
+    <a mat-button routerLink="/new-product">Nuevo producto</a>
+</mat-toolbar>
+<div>
+<mat-card class="card">
+
+    <mat-card-title>Gráficas de productos</mat-card-title>
+    <mat-card-content>
+    <ngx-charts-pie-chart [view]="[400,300]" [results]="stockData"></ngx-charts-pie-chart>
+    <ngx-charts-pie-chart [view]="[400,300]" [results]="activeData"></ngx-charts-pie-chart>
+    </mat-card-content>
+</mat-card>
+</div>
